@@ -1,0 +1,24 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "ejemplos de asincronismo con js",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js",
+    "promises": "node src/promises/index.js",
+    "async": "node src/async/index.js",
+    "rickApi-callbacks": "node src/callbacks/rickApi.js",
+    "rickApi-promises": "node src/promises/rickApi.js",
+    "rickApi-async": "node src/async/rickApi.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Octavio Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
